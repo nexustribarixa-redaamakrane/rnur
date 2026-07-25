@@ -635,12 +635,14 @@ This matrix maps out allocations visually across the 16-column boundaries of the
       <td align="center"><b>F90xx</b></td>
       <td colspan="1" align="center">🟧 Benjamin Franklin's Phonetic Additions (F9000–F900F)</td>
       <td colspan="5" align="center">🟧 Loopiform (F9010–F905F)</td>
-      <td colspan="3" align="center">🟧 Foldian (F9060–F908F)</td>
-      <td colspan="7" align="center">(F9090–F90FF)</td>
+      <td colspan="3" align="center">(F9060–F908F)</td>
+      <td colspan="5" align="center">🟧 Sulat Hiligaynon (F9090–F90DF)</td>
+      <td colspan="2" align="center">🟧 Western Script (F90E0–F90FF)</td>
     </tr>
     <tr>
       <td align="center"><b>F91xx</b></td>
-      <td colspan="16" align="center">(F9100–F91FF)</td>
+      <td colspan="3" align="center">🟧 Western Script (F9100–F912F)</td>
+      <td colspan="13" align="center">(F9130–F91FF)</td>
     </tr>
     <tr>
       <td align="center"><b>F92xx</b></td>
@@ -764,11 +766,15 @@ This matrix maps out allocations visually across the 16-column boundaries of the
     </tr>
     <tr>
       <td align="center"><b>FB0xx</b></td>
-      <td colspan="16" align="center">(FB000–FB0FF)</td>
+      <td colspan="6" align="center">(FB000–FB05F)</td>
+      <td colspan="3" align="center">🟧 Foldian (FB060–FB08F)</td>
+      <td colspan="7" align="center">(FB090–FB0FF)</td>
     </tr>
     <tr>
       <td align="center"><b>FB1xx</b></td>
-      <td colspan="16" align="center">(FB100–FB1FF)</td>
+      <td colspan="3" align="center">(FB100–FB12F)</td>
+      <td colspan="4" align="center">🟧 Zurjon (FB130–FB16F)</td>
+      <td colspan="9" align="center">(FB170–FB1FF)</td>
     </tr>
     <tr>
       <td align="center"><b>FB2xx</b></td>
