@@ -772,8 +772,8 @@ This matrix maps out allocations visually across the 16-column boundaries of the
       <td align="center"><b>FB1xx</b></td>
       <td colspan="3" align="center">(FB100–FB12F)</td>
       <td colspan="4" align="center">🟧 Zurjon (FB130–FB16F)</td>
-      <td colspan="5" align="center">🟧 Foldian (FB170–FB1BF)</td>
-      <td colspan="4" align="center">(FB1C0–FB1FF)</td>
+      <td colspan="4" align="center">🟧 Foldian (FB170–FB1AF)</td>
+      <td colspan="5" align="center">(FB1B0–FB1FF)</td>
     </tr>
     <tr>
       <td align="center"><b>FB2xx</b></td>

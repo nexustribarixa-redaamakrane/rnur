@@ -150,8 +150,8 @@ This matrix maps out allocations visually across the 16-column boundaries of the
       <td align="center"><b>EFxx</b></td>
       <td colspan="3" align="center">🟧 Western Script (EF00-EF2F)</td>
       <td colspan="4" align="center">🟧 Zurjon (EF30-EF6F)</td>
-      <td colspan="5" align="center">🟧 Foldian (EF70-EFBF)</td>
-      <td colspan="4" align="center">??? (EFC0-EFFF)</td>
+      <td colspan="4" align="center">🟧 Foldian (EF70-EFAF)</td>
+      <td colspan="5" align="center">??? (EFB0-EFFF)</td>
     </tr>
     <tr>
       <td align="center"><b>F0xx</b></td>
