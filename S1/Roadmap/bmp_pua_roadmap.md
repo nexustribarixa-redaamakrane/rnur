@@ -142,7 +142,7 @@ This matrix maps out allocations visually across the 16-column boundaries of the
       <td align="center"><b>EExx</b></td>
       <td colspan="1" align="center">🟧 Benjamin Franklin's Phonetic Additions (EE00-EE0F)</td>
       <td colspan="5" align="center">🟧 Loopiform (EE10-EE5F)</td>
-      <td colspan="3" align="center">🟧 Foldian (EE60-EE8F)</td>
+      <td colspan="3" align="center">??? (EE60-EE8F)</td>
       <td colspan="5" align="center">🟧 Sulat Hiligaynon (EE90-EEDF)</td>
       <td colspan="2" align="center">🟧 Western Script (EEE0-EEFF)</td>
     </tr>
@@ -150,7 +150,8 @@ This matrix maps out allocations visually across the 16-column boundaries of the
       <td align="center"><b>EFxx</b></td>
       <td colspan="3" align="center">🟧 Western Script (EF00-EF2F)</td>
       <td colspan="4" align="center">🟧 Zurjon (EF30-EF6F)</td>
-      <td colspan="9" align="center">(EF70-EFFF)
+      <td colspan="5" align="center">🟧 Foldian (EF70-EFBF)</td>
+      <td colspan="4" align="center">??? (EFC0-EFFF)</td>
     </tr>
     <tr>
       <td align="center"><b>F0xx</b></td>
