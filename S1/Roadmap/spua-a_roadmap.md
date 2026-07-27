@@ -766,15 +766,14 @@ This matrix maps out allocations visually across the 16-column boundaries of the
     </tr>
     <tr>
       <td align="center"><b>FB0xx</b></td>
-      <td colspan="6" align="center">(FB000–FB05F)</td>
-      <td colspan="3" align="center">🟧 Foldian (FB060–FB08F)</td>
-      <td colspan="7" align="center">(FB090–FB0FF)</td>
+      <td colspan="16" align="center">(FB000–FB0FF)</td>
     </tr>
     <tr>
       <td align="center"><b>FB1xx</b></td>
       <td colspan="3" align="center">(FB100–FB12F)</td>
       <td colspan="4" align="center">🟧 Zurjon (FB130–FB16F)</td>
-      <td colspan="9" align="center">(FB170–FB1FF)</td>
+      <td colspan="5" align="center">🟧 Foldian (FB170–FB1BF)</td>
+      <td colspan="4" align="center">(FB1C0–FB1FF)</td>
     </tr>
     <tr>
       <td align="center"><b>FB2xx</b></td>
