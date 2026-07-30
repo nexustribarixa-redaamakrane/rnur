@@ -544,7 +544,7 @@ This matrix maps out allocations visually across the 16-column boundaries of the
     </tr>
     <tr>
       <td align="center"><b>108Bxx</b></td>
-      <td colspan="8" align="center">??? (108B00–108BFF)</td>
+      <td colspan="16" align="center">??? (108B00–108BFF)</td>
     </tr>
     <tr>
       <td align="center"><b>108Cxx</b></td>
