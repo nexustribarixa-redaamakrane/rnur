@@ -5,6 +5,8 @@
 # Maintained by Registry Architecture / Nexus Tribarixa
 # For documentation, see https://github.com/nexustribarixa-redaamakrane/rnur
 #
+# NOTE: This file is for Set 2 of RNUR.
+#
 # Source Data Agreements
 #
 # This file records the upstream registries and authorities that RNUR sources
