@@ -1,0 +1,23 @@
+# UnicodeData-RNUR.txt
+# Date: 2026-07-31, 12:00:00
+#
+# Reddit Neographical Unicode Registry Character Database
+# Maintained by Registry Architecture / Nexus Tribarixa
+# For documentation, see https://github.com/nexustribarixa-redaamakrane/rnur
+#
+# UnicodeData of RNUR
+#
+# This file tracks the assigned character properties for every RNUR
+# allocation, mirroring the Unicode Character Database (UCD) UnicodeData.txt
+# format so the registry maintains strict parity with modern text-shaping
+# engines (see core/SPECIFICATION.md, Section 4).
+#
+# Format:
+# <code>;<name>;<category>;<combining>;<bidi>;<decomposition>;<decimal>;<digit>;<numeric>;<mirrored>;<unicode1name>;<ISOcomment>;<simple_uppercase>;<simple_lowercase>;<simple_titlecase>
+#
+# NOTE: Character entries will be populated as each block's repertoire is
+# finalized. This file currently contains the header only.
+#
+# @missing: 0000..10FFFF; <unassigned>
+#
+# EOF

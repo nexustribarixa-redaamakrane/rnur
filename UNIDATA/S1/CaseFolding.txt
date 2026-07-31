@@ -1,0 +1,34 @@
+# CaseFolding-RNUR.txt
+# Date: 2026-07-31, 12:00:00
+#
+# Reddit Neographical Unicode Registry Character Database
+# Maintained by Registry Architecture / Nexus Tribarixa
+# For documentation, see https://github.com/nexustribarixa-redaamakrane/rnur
+#
+# Case Folding Properties
+#
+# This file is a supplement to the RNUR UnicodeData file.
+#
+# Format:
+# <code>; <status>; <mapping>; # <name>
+#
+# The status field is:
+# C: common case folding, common mappings shared by both simple and full mappings.
+# F: full case folding, mappings that cause strings to grow in length. Multiple characters are separated by spaces.
+# S: simple case folding, mappings to single characters where different from F.
+# T: special case for uppercase I and dotted uppercase I
+#    - For non-Turkic languages, this mapping is normally not used.
+#    - For Turkic languages (tr, az), this mapping can be used instead of the normal mapping for these characters.
+#      Note that the Turkic mappings do not maintain canonical equivalence without additional processing.
+#
+# Usage:
+#  A. To do a simple case folding, use the mappings with status C + S.
+#  B. To do a full case folding, use the mappings with status C + F.
+#
+# NOTE: RNUR tracks case folding only for its own allocations. Unicode case
+# folding data is intentionally excluded and will be populated as each block's
+# repertoire is finalized.
+#
+# @missing: 0000..10FFFF; <unassigned>
+#
+# EOF

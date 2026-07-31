@@ -1,0 +1,73 @@
+# Sources-RNUR.txt
+# Date: 2026-07-31, 12:00:00
+#
+# Reddit Neographical Unicode Registry Character Database
+# Maintained by Registry Architecture / Nexus Tribarixa
+# For documentation, see https://github.com/nexustribarixa-redaamakrane/rnur
+#
+# Source Data Agreements
+#
+# This file records the upstream registries and authorities that RNUR sources
+# its allocations from. Each entry declares the agreement type, the agreement
+# name, and the file creation date, followed by the source bibliographic data.
+#
+# Agreement Format:
+# Agreement Type: <type of agreement>
+# Agreement Name: <name of agreement>
+# File Created: <creation date>
+#
+# Source Format:
+# Title: <title of source>
+# Author: <author(s)>
+# Publication-Date: <publication date>
+# URL: <location>
+#
+# ================================================
+#
+# --- ConScript Unicode Registry (CSUR) ---
+# Agreement Type: Public
+# Agreement Name: ConScript Unicode Registry
+# File Created: 2026-07-31
+# Title: ConScript Unicode Registry
+# Author: John Cowan, Michael Everson, Evertype
+# Publication-Date: 2008-04-14
+# URL: http://www.evertype.com/standards/csur/
+#
+# --- Under-ConScript Unicode Registry (UCSUR) ---
+# Agreement Type: Public
+# Agreement Name: Under-ConScript Unicode Registry
+# File Created: 2026-07-31
+# Title: Under-ConScript Unicode Registry
+# Author: Rebecca Bettencourt, Kreative Software
+# Publication-Date: 2013-10-27
+# URL: http://www.kreativekorp.com/ucsur/
+#
+# --- Under-ConScript Unicode Registry Character Database (UCSUR UNIDATA) ---
+# Agreement Type: Public
+# Agreement Name: Under-ConScript Unicode Registry Character Database
+# File Created: 2026-07-31
+# Title: Under-ConScript Unicode Registry Character Database
+# Author: Rebecca Bettencourt, Kreative Software
+# Publication-Date: 2014-07-04
+# URL: http://www.kreativekorp.com/ucsur/UNIDATA/
+#
+# --- Shared Private Use Character Encoding (SPUCE) ---
+# Agreement Type: Public
+# Agreement Name: Shared Private Use Character Encoding
+# File Created: 2026-07-31
+# Title: Shared Private Use Character Encoding
+# Author: erictom333
+# Publication-Date: 2020-11-13 (SPUCE-0; Pixel Sans), ~late 2023/early 2024 (SPUCE-1), 2026-04-14 (SPUCE-2)
+# URL: https://spuceproject.miraheze.org/wiki/Main_Page (SPUCE-2)
+# NOTE: SPUCE 1 has been deprecated in favor of SPUCE 2.
+#
+# --- Reddit Neographical Unicode Registry (RNUR) ---
+# Agreement Type: Public
+# Agreement Name: Reddit Neographical Unicode Registry
+# File Created: 2026-07-31
+# Title: Reddit Neographical Unicode Registry Character Database
+# Author: Registry Architecture / Nexus Tribarixa
+# Publication-Date: 2026-06-17
+# URL: https://github.com/nexustribarixa-redaamakrane/rnur
+#
+# EOF

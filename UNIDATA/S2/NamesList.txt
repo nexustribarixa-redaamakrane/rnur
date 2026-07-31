@@ -1,0 +1,24 @@
+# NamesList-RNUR.txt
+# Date: 2026-07-31, 12:00:00
+#
+# Reddit Neographical Unicode Registry Character Database
+# Maintained by Registry Architecture / Nexus Tribarixa
+# For documentation, see https://github.com/nexustribarixa-redaamakrane/rnur
+#
+# Character Name Index
+#
+# This file lists the assigned names for RNUR characters, following the
+# Unicode Character Database (UCD) NamesList.txt convention:
+#
+# Format:
+# <code>    <character name>
+#     <annotation>
+#     x <other character name>
+#     # <character name>
+#
+# NOTE: Character names will be populated as each block's repertoire is
+# finalized. This file currently contains the header only.
+#
+# @missing: 0000..10FFFF; No_Name
+#
+# EOF
