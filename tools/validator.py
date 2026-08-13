@@ -36,7 +36,7 @@ def run_full_database_scan(base_dir):
             reader = csv.DictReader(f)
             for line_num, row in enumerate(reader, start=2):
                 # Skip checking against open/empty sandbox slots
-                if row.get('Status') in ['Waiting for Submissions', 'Provisional Allocation / Open for Submission']:
+                if row.get('Status') in ['Waiting for Submissions', 'Provisional Allocation / Open for Submission', 'Permanent Allocation / Open for Submission']:
                     continue
                 try:
                     s_set = int(row['Set_Number'])
@@ -99,7 +99,7 @@ def validate_single_submission(set_number, start_hex, end_hex, base_dir):
     with open(target_csv_path, mode='r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         for row in reader:
-            if row['Status'] in ['Waiting for Submissions', 'Provisional Allocation / Open for Submission']:
+            if row['Status'] in ['Waiting for Submissions', 'Provisional Allocation / Open for Submission', 'Permanent Allocation / Open for Submission']:
                 continue            
             try:
                 current_set = int(row['Set_Number'])

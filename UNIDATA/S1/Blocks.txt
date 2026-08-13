@@ -126,6 +126,7 @@ F80B0..F80FF; New Mong
 F8100..F813F; New Akha
 F8140..F817F; Akkhara Muni
 F8180..F81AF; New Maori
+F92C0..F941F; Placeholder
 FF000..FF05F; Vexillology Symbols
 FF060..FF0FF; Miscellaneous Technical Extended-I
 FF100..FF16F; Control Pictures Extended-I
@@ -165,17 +166,39 @@ FEF00..FEF3F; Featural Minecraftian
 FEF40..FEF8F; African Transitional
 FEF90..FEFFF; Layout Sandbox Space (erictom333 Reserved)
 
+# --- RNUR Set 1 Allocations (🟧) ---
+EE00..EE0F; Benjamin Franklin's Phonetic Additions
+EE10..EE5F; Loopiform
+EE90..EEDF; Sulat Hiligaynon
+EEE0..EF2F; Western Script
+EF30..EF6F; Zurjon
+EF70..EFAF; Foldian
+F5C0..F71F; Placeholder
+
+# --- RNUR Embassy Space in SPUCE (Shared Private Use Character Encoding) ---
+F9000..F900F; Benjamin Franklin's Phonetic Additions (RNUR Embassy Space in SPUCE)
+F9010..F905F; Loopiform (RNUR Embassy Space in SPUCE)
+F9090..F90DF; Sulat Hiligaynon (RNUR Embassy Space in SPUCE)
+F90E0..F912F; Western Script (RNUR Embassy Space in SPUCE)
+FB130..FB16F; Zurjon (RNUR Embassy Space in SPUCE)
+FB170..FB1AF; Foldian (RNUR Embassy Space in SPUCE)
+
 # ================================================
 # ARCHITECTURAL OPEN Real Estate / Tracking
 # ================================================
 
 # --- Standard Unallocated Layout Tracking Space (OPEN_SLOT) ---
-F9000..F9FFF; OPEN_SLOT
-FB000..FBFFF; OPEN_SLOT
+F9060..F908F; OPEN_SLOT
+F9130..F91FF; OPEN_SLOT
+F9200..F92BF; OPEN_SLOT
+F9420..F9FFF; OPEN_SLOT
+FB000..FB12F; OPEN_SLOT
+FB1B0..FBFFF; OPEN_SLOT
 
 # --- Provisional RNUR Open Blocks (PROVISIONAL_RNUR_OPEN_SLOT) ---
-EE00..EFFF; PROVISIONAL_RNUR_OPEN_SLOT
-F5C0..F7FF; PROVISIONAL_RNUR_OPEN_SLOT
+EE60..EE8F; PROVISIONAL_RNUR_OPEN_SLOT
+EFB0..EFFF; PROVISIONAL_RNUR_OPEN_SLOT
+F720..F7FF; PROVISIONAL_RNUR_OPEN_SLOT
 F820..F87F; PROVISIONAL_RNUR_OPEN_SLOT
 100000..10FFEF; PROVISIONAL_RNUR_OPEN_SLOT
 F1D00..F1EFF; PROVISIONAL_RNUR_OPEN_SLOT

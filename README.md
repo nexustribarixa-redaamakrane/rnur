@@ -24,12 +24,14 @@ RNUR operates on a **Coordinate-Pair System** mapped as `(Set_Number, Code_Point
 
 | Plane Layer | Code Point Range | Classification | Collision Strategy |
 | :--- | :--- | :--- | :--- |
-| **Plane 0 (BMP)** | `U+EE00–U+EFFF`<br>`U+F5C0-U+F7FF`<br>`U+F820-F87F` | Tier B: Provisional Territory | Dynamic relocation to the base of Set 2 |
+| **Plane 0 (BMP)** | `U+EE00–U+EFFF`<br>`U+F5C0-U+F71F` (Placeholder)<br>`U+F720-U+F7FF`<br>`U+F820-F87F` | Tier B: Provisional Territory | Dynamic relocation to the base of Set 2 |
 | **Plane 15 (SPUA-A)**| Explicit Gaps* | Tier B: Provisional Territory | Dynamic relocation to the base of Set 2 |
-| **Plane 15 (SPUA-A)**| `U+F9000-U+F9FFF`<br>`U+FB000-U+FBFFF` | Tier A: Permanent Allocations | Reserved RNUR embassy compatibility layer in SPUCE |
+| **Plane 15 (SPUA-A)**| `U+F9000-U+F9FFF` (embassy OPEN_SLOT)<br>`U+FB000-U+FBFFF` (embassy OPEN_SLOT) | Tier A: Permanent Allocations | Reserved RNUR embassy compatibility layer in SPUCE |
 | **Plane 16 (SPUA-B)**| Entirety (`U+100000-U+10FFEF`) | Tier B: Provisional Territory | Dynamic relocation to the base of Set 2 |
 
 > *\*Note: Explicit Plane 15 Provisional Gaps include:* `F1D00–F1EFF`, `F26B0–F26FF`, `F28E0–F28FF`, `F2960–F29FF`, `F3400-F4FFF`, `F50F0-F7FFF`, `F81B0–F8FFF`, `FA000–FAFFF`, `FC000–FDFFF`, `FF200–FF27F`, `FF2A0–FF2BF`, `FF700–FF9FF`, *and* `FFE00–FFEFF`.
+>
+> *\*Note: The RNUR embassy space within SPUCE consists of permanent OPEN_SLOT sectors reserved for RNUR (`F9000–F9FFF`, `FB000–FBFFF`), open for submission, and hosts the SPUCE allocation of Placeholder (`F92C0–F941F`).*
 
 ---
 
@@ -38,7 +40,7 @@ RNUR operates on a **Coordinate-Pair System** mapped as `(Set_Number, Code_Point
 Because RNUR shares physical PUA space with established upstream authorities—primarily the Under-ConScript Unicode Registry (UCSUR) and the Standard Private Use Code-point Extensions (SPUCE)—external collisions are handled automatically by our pipeline architecture based on slot classification:
 
 ### 🔹 Tier A: Hardened Slots & Plane 16 Gaps
-This applies to finalized permanent allocations, the permanent structural space tracking slots of Plane 16, and designated Plane 0 gaps (`U+F5C0–U+F6FF`, `U+F820–U+F87F`). If an upstream registry overrides these sectors:
+This applies to finalized permanent allocations, the permanent structural space tracking slots of Plane 16, and designated Plane 0 gaps (`U+F720–U+F7FF`, `U+F820–U+F87F`). If an upstream registry overrides these sectors:
 1. **Parallel Addressing Mirror:** The registry pipeline triggers a **1:1 mathematical eviction** straight into the exact corresponding coordinate within **Set 2** (e.g., Set 1 `U+100580` maps directly to Set 2 `U+100580`).
 2. **Flag Deployment:** The script is appended with an `UPSTREAM_COLLISION` flag in the database.
 3. **Runtime Override:** Compliant local pre-processors forcibly prioritize the RNUR font layer over native system fallbacks to preserve layout integrity.

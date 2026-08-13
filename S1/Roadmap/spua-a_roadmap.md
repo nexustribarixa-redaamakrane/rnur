@@ -646,15 +646,17 @@ This matrix maps out allocations visually across the 16-column boundaries of the
     </tr>
     <tr>
       <td align="center"><b>F92xx</b></td>
-      <td colspan="16" align="center">(F9200–F92FF)</td>
+      <td colspan="12" align="center">(F9200–F92BF)</td>
+      <td colspan="4" align="center">🟥 Placeholder (F92C0–F92FF)</td>
     </tr>
     <tr>
       <td align="center"><b>F93xx</b></td>
-      <td colspan="16" align="center">(F9300–F93FF)</td>
+      <td colspan="16" align="center">🟥 Placeholder (F9300–F93FF)</td>
     </tr>
     <tr>
       <td align="center"><b>F94xx</b></td>
-      <td colspan="16" align="center">(F9400–F94FF)</td>
+      <td colspan="2" align="center">🟥 Placeholder (F9400–F941F)</td>
+      <td colspan="14" align="center">(F9420–F94FF)</td>
     </tr>
     <tr>
       <td align="center"><b>F95xx</b></td>

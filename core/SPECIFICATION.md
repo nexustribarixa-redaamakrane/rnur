@@ -60,8 +60,16 @@ To preserve memory space within Plane 0 (the Basic Multilingual Plane) while ens
 
 Reserved exclusively for low-payload, stable alphabets (such as simple featural, phonetic, or segmented writing systems) under Set 1 allocations.
 
-* **U+EE00–U+EFCF**: PROVISIONAL_RNUR_OPEN_SLOT.
-* **U+F5C0–U+F7FF**: PROVISIONAL_RNUR_OPEN_SLOT.
+* **U+EE00–U+EE0F**: Franklin Phonetic Alphabet (Benjamin Franklin).
+* **U+EE10–U+EE5F**: Loopiform (Filipe Dos Reis).
+* **U+EE60–U+EE8F**: PROVISIONAL_RNUR_OPEN_SLOT.
+* **U+EE90–U+EEDF**: Sulat Hiligaynon (Julius Dalum).
+* **U+EEE0–U+EF2F**: Western Script (Julius Dalum).
+* **U+EF30–U+EF6F**: Zurjon (u/Willing_Squirrel_741).
+* **U+EF70–U+EFAF**: Foldian (u/Willing_Squirrel_741).
+* **U+EFB0–U+EFFF**: PROVISIONAL_RNUR_OPEN_SLOT.
+* **U+F5C0–U+F71F**: Placeholder (English cipher script; RNUR Set 1 allocation).
+* **U+F720–U+F7FF**: PROVISIONAL_RNUR_OPEN_SLOT.
 * **U+F820–U+F87F**: PROVISIONAL_RNUR_OPEN_SLOT.
 
 ---
@@ -123,16 +131,26 @@ To transition Set 1 from a localized allocation model to a true Global Consensus
 If an uncoordinated upstream allocation occurs that overwrites an active RNUR coordinate pair $(1, C)$, mitigation routing branches into two distinct operational pipelines based on the underlying slot classification:
 
 ##### 3.5.3.1 Tier A: Non-Provisional Allocations & Gaps (Plane 16 Gaps, Locked Plane 15 Sectors, and Selected BMP Blocks)
-This tier applies to finalized allocations and the permanent structural space tracking slots of Plane 16, as well as the designated Plane 0 gaps (`U+F5C0–U+F6FF` and `U+F820–U+F87F`). Because these ranges represent rigid, permanent RNUR real estate, an upstream collision triggers a precise, deterministic architectural shift:
+This tier applies to finalized allocations and the permanent structural space tracking slots of Plane 16, as well as the designated Plane 0 gaps (`U+F720–U+F7FF` and `U+F820–U+F87F`). Because these ranges represent rigid, permanent RNUR real estate, an upstream collision triggers a precise, deterministic architectural shift:
 1. **Parallel Addressing Mirror:** The registry master pipeline automatically triggers a 1:1 structural eviction. Instead of shifting to an unassigned block, the affected script mirrors directly into its exact corresponding mathematical coordinate address within **Set 2** (e.g., a collision at Set 1 $U+100580$ maps directly to Set 2 $U+100580$).
 2. **Flag Deployment:** The script’s historical data table entry is appended with an `UPSTREAM_COLLISION` flag.
 3. **Runtime Asset Override:** For software environments operating under RNUR compliance, the local font pre-processor runtime engine forces high-priority asset targeting over the native host system string fallback to prevent immediate layout corruption.
 
-##### 3.5.3.2 Tier B: Provisional Allocations (BMP Block U+EE00–U+EFFF & Empty Plane 15 Gaps)
+##### 3.5.3.2 Tier B: Provisional Allocations (BMP Provisional Blocks & Empty Plane 15 Gaps)
 This tier applies to sectors explicitly designated as Provisional RNUR Territory, which operate defensively under an active upstream vacuum. Because these regions are subject to an absolute Upstream Authority hierarchy, a collision triggers an agile escape vector:
 1. **Dynamic Database Migration:** The registry master pipeline executes an automated offline database migration, shifting the displaced script's records away from the collision zone and into the first available, unassigned tracking ranges at the base of the Set 2 sandbox layer.
 2. **Metric Refactoring:** Font compilation tools rebuild and refactor the underlying glyph metrics and code point mappings to align cleanly with the new sandbox target plane destination.
 3. **Upstream Compliance:** The vacated Set 1 coordinate pair $(1, C)$ is updated in the master database to mirror the native upstream allocation, completely clearing out runtime font rendering pollution.
+
+##### 3.5.4 RNUR Embassy Space in SPUCE (Shared Private Use Character Encoding)
+To maintain permanent, collision-safe visibility for active Set 1 scripts within the shared SPUCE registry, RNUR holds a dedicated embassy layer inside SPUCE territory. SPUCE has formally reserved the `U+F9000`–`U+F9FFF` and `U+FB000`–`U+FBFFF` sectors for RNUR, making these ranges **permanent Tier A slots owned by RNUR** and not subject to the eviction vectors defined in §3.5.3.
+
+These sectors are tracked in `data/set1_master.csv` as permanent `OPEN_SLOT` territory — permanently reserved for RNUR, yet open for submission:
+
+* **`U+F9000`–`U+F9FFF`** (RNUR Embassy Space in SPUCE)
+* **`U+FB000`–`U+FBFFF`** (RNUR Embassy Space in SPUCE)
+
+The Placeholder cipher is additionally registered directly within SPUCE as a shared allocation at `U+F92C0`–`U+F941F` (mirroring the RNUR Set 1 allocation `U+F5C0`–`U+F71F`).
 
 ## 4. Character Property Protocol
 
