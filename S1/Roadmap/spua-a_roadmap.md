@@ -247,6 +247,10 @@ This matrix maps out allocations visually across the 16-column boundaries of the
       <td colspan="16" align="center">🟥 Latin Extensions-II (F3100–F31FF)</td>
     </tr>
     <tr>
+      <td align="center"><b>F32xx</b></td>
+      <td colspan="16" align="center">🟥 Latin Extensions-II (F3200–F32FF)</td>
+    </tr>
+    <tr>
       <td align="center"><b>F33xx</b></td>
       <td colspan="16" align="center">🟥 Latin Extensions-II (F3300–F337F)</td>
     </tr>
@@ -371,12 +375,15 @@ This matrix maps out allocations visually across the 16-column boundaries of the
       <td colspan="5" align="center">🟥 Mifo-Circassian (F5030–F507F)</td>
       <td colspan="4" align="center">🟥 Formosan (F5080–F50BF)</td>
       <td colspan="3" align="center">🟥 Pseudo-Kurdish (F50C0–F50EF)</td>
-      <td colspan="1" align="center">??? (F50F0–F50FF)</td>
+      <td colspan="1" align="center">🟥 Enochian (F50F0–F50FF)</td>
     </tr>
     <tr>
       <tr>
       <td align="center"><b>F51xx</b></td>
-      <td colspan="16" align="center">??? (F5100–F51FF)</td>
+      <td colspan="1" align="center">🟥 Enochian (F5100–F510F)</td>
+      <td colspan="2" align="center">🟥 Litterae Ignotae (F5110–F512F)</td>
+      <td colspan="2" align="center">🟥 Theban (F5130–F514F)</td>
+      <td colspan="11" align="center">??? (F5150–F51FF)</td>
     </tr>
     <tr>
       <td align="center"><b>F52xx</b></td>
@@ -647,15 +654,15 @@ This matrix maps out allocations visually across the 16-column boundaries of the
     <tr>
       <td align="center"><b>F92xx</b></td>
       <td colspan="12" align="center">(F9200–F92BF)</td>
-      <td colspan="4" align="center">🟥 Placeholder (F92C0–F92FF)</td>
+      <td colspan="4" align="center">🟧 Placeholder (F92C0–F92FF)</td>
     </tr>
     <tr>
       <td align="center"><b>F93xx</b></td>
-      <td colspan="16" align="center">🟥 Placeholder (F9300–F93FF)</td>
+      <td colspan="16" align="center">🟧 Placeholder (F9300–F93FF)</td>
     </tr>
     <tr>
       <td align="center"><b>F94xx</b></td>
-      <td colspan="2" align="center">🟥 Placeholder (F9400–F941F)</td>
+      <td colspan="2" align="center">🟧 Placeholder (F9400–F941F)</td>
       <td colspan="14" align="center">(F9420–F94FF)</td>
     </tr>
     <tr>
@@ -1128,7 +1135,7 @@ To ensure predictable layout boundaries for secondary forks and peer registry co
 
 ### 2. Micro-Level Breakdown: Why the `???` Range is "Provisional RNUR / Unencoded (U)CSUR/SPUCE"
 
-The fragmented and extended ranges spanning **`F1D00–F1EFF`**, **`F26B0–F26FF`**, **`F28E0–F28FF`**, **`F2960–F29FF`**, **`F3400-F4FFF`**, **`F50F0-F7FFF`**, **`F81B0–F8FFF`**, **`FA000–FAFFF`**, **`FC000–FDFFF`**, **`FF200–FF27F`**, **`FF2A0–FF2BF`**, **`FF700–FF9FF`**, and **`FFE00–FFEFF`** are classified collectively under the `???` territory due to three core structural boundaries:
+The fragmented and extended ranges spanning **`F1D00–F1EFF`**, **`F26B0–F26FF`**, **`F28E0–F28FF`**, **`F2960–F29FF`**, **`F3400-F4FFF`**, **`F5150-F7FFF`**, **`F81B0–F8FFF`**, **`FA000–FAFFF`**, **`FC000–FDFFF`**, **`FF200–FF27F`**, **`FF2A0–FF2BF`**, **`FF700–FF9FF`**, and **`FFE00–FFEFF`** are classified collectively under the `???` territory due to three core structural boundaries:
 
 * **Provisional RNUR Ownership:** This real estate functions explicitly as **RNUR Set 1 space for now**. It is actively tracked and defended by the registry to anchor incoming community scripts, operating under a temporary lease paradigm.
 * **Upstream Vacuum:** While under RNUR stewardship, this space remains an open layout vacuum from the perspective of peer networks. It lacks an abstract character repertoire or formal upstream tracking, remaining designated as available real estate until **UCSUR** or **SPUCE** steps forward to claim an allocation within its boundaries.

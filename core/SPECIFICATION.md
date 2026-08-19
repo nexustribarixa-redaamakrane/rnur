@@ -90,7 +90,7 @@ The following blocks represent unallocated space (`OPEN_SLOT`) and defensively z
 
 #### Plane 15 (SPUA-A) Provisional Open Slots
 * `U+F1D00`–`U+F1EFF` | `U+F26B0`–`U+F26FF` | `U+F28E0`–`U+F28FF` | `U+F2960`–`U+F29FF`
-* `U+F3400`–`U+F4DFF` | `U+F50F0`–`U+F7FFF` | `U+F81B0`–`U+F8FFF` | `U+FA000`–`U+FAFFF`
+* `U+F3400`–`U+F4DFF` | `U+F5150`–`U+F7FFF` | `U+F81B0`–`U+F8FFF` | `U+FA000`–`U+FAFFF`
 * `U+FC000`–`U+FDFFF` | `U+FF200`–`U+FF27F` | `U+FF2A0`–`U+FF2BF` | `U+FF700`–`U+FF9FF`
 * `U+FFE00`–`U+FFEFF`
 
@@ -150,7 +150,7 @@ These sectors are tracked in `data/set1_master.csv` as permanent `OPEN_SLOT` ter
 * **`U+F9000`–`U+F9FFF`** (RNUR Embassy Space in SPUCE)
 * **`U+FB000`–`U+FBFFF`** (RNUR Embassy Space in SPUCE)
 
-The Placeholder cipher is additionally registered directly within SPUCE as a shared allocation at `U+F92C0`–`U+F941F` (mirroring the RNUR Set 1 allocation `U+F5C0`–`U+F71F`).
+The Placeholder cipher is also allocated within the RNUR SPUA-A embassy space at `U+F92C0`–`U+F941F` (mirroring the RNUR Set 1 BMP PUA allocation `U+F5C0`–`U+F71F`).
 
 ## 4. Character Property Protocol
 
